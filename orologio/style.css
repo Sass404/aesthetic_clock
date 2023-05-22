@@ -1,0 +1,39 @@
+body    {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(img/background_1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#sfondo {
+    background-image: url(img/background_2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 0.3;
+}
+
+#orologio{
+    text-align: center;
+    border-style: solid;
+    border-color: darkorchid;
+    border-width: 4px;
+    padding: 1%;
+    border-radius: 4%;
+    width: fit-content;
+    margin: 10%;
+    font-size: 30px;
+    color: whitesmoke;
+    opacity: 1;
+}
+
+h1{
+    font-family: sans-serif;
+}
+
+hr{
+    border-color: rgb(0, 0, 0);
+    border-style: dotted;
+    border-width: 8px;
+    border-top: none;
+}
