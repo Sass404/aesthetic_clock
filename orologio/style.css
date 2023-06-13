@@ -1,38 +1,38 @@
-body    {
-    display: flex;
-    justify-content: space-around;
+*{
+    font-size: 30px;
+    color: whitesmoke;
+    font-family: sans-serif;
+    text-shadow: 3px 3px 3px black;
+}
+
+body{
     background-image: url(img/background_1.jpg);
     background-attachment: fixed;
     background-position: center;
 }
 
-#sfondo {
-    background-image: url(img/background_2.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    opacity: 0.3;
+.container{
+    position: relative;
 }
 
 #orologio{
+    background-image: url(img/background_2.jpg);
+    background-position: top;
     text-align: center;
     border-style: solid;
     border-color: darkorchid;
     border-width: 4px;
-    padding: 1%;
     border-radius: 4%;
-    width: fit-content;
-    margin: 10%;
-    font-size: 30px;
-    color: whitesmoke;
-    opacity: 1;
-}
-
-h1{
-    font-family: sans-serif;
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 35%);
 }
 
 hr{
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
     border-style: dotted;
     border-width: 8px;
     border-top: none;
