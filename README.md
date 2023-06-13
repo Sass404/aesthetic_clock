@@ -1,2 +1,2 @@
 # aesthetic_clock
-I tried to make a watch beautiful
+07.06.2023 - caricato le risorse e completato l'HTML
